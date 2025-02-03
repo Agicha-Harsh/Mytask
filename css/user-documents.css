@@ -1,0 +1,15 @@
+/* First three columns stick to the left */
+tbody td:nth-child(3),
+thead th:nth-child(3) {
+    position: sticky;
+    left: 0; /* Freezes the columns when scrolling horizontally */
+    background-color: #f4f4f4;
+    z-index: 2; /* Ensures the columns appear above other content */
+    left: 9rem; /* Freezes the columns when scrolling horizontally */
+    min-width: 16rem;
+}
+
+.table thead th:nth-child(3) {
+    z-index: 4; /* Ensures header cells are on top of sticky columns */
+    border-color: #dee2e6;
+}

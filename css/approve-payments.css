@@ -1,0 +1,4 @@
+td:nth-last-child(2),
+th:nth-last-child(2) {
+    min-width: 11rem;
+}
