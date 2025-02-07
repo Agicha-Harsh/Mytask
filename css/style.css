@@ -146,7 +146,7 @@ thead th:first-child {
     margin-left: -5%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 960px) {
     .custom-navbar{
         flex-direction: column;
     }
