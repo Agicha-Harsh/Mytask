@@ -2,7 +2,7 @@
     margin-left: 0 !important;
 }
 
-@media (max-width: 2660px){
+@media (max-width: 768px){
     .n-margin-xs-8{
         margin-left: 6% !important;
     }
