@@ -163,8 +163,8 @@ thead th:first-child {
         padding-bottom: 0.25rem; /* Reduce padding at the bottom */
     }
     .form-container {
-        grid-template-columns: 1fr; /* Single column layout for mobile */
-        gap: 15px; /* Adjust gap for smaller screens */
+        grid-template-columns: 1fr !important; /* Single column layout for mobile */
+        gap: 15px ; /* Adjust gap for smaller screens */
     }
 
     .form-group {
@@ -212,9 +212,9 @@ thead th:first-child {
 
 @media (min-width: 1920px) and (max-width: 2660px) {
     .n-margin-xs-8{
-        margin-left: -14%;
+        margin-left: -14% !important;
     }
     .fs-12{
-        font-size: 18px;
+        font-size: 18px !important;
      }
 }
