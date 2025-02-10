@@ -196,7 +196,7 @@ thead th:first-child {
 
     .left-panel {
         order: 1;
-        text-align: center;
+        /* text-align: center; */
     }
 
     .right-panel {

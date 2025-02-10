@@ -130,5 +130,11 @@
 }
 
 
+@media (max-width: 768px) {
+    .left-panel {
+    order: 1;
+    text-align: center !important;
+}
+}
 
 
