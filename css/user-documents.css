@@ -5,7 +5,7 @@ thead th:nth-child(3) {
     left: 0; /* Freezes the columns when scrolling horizontally */
     background-color: #f4f4f4;
     z-index: 2; /* Ensures the columns appear above other content */
-    left: 9rem; /* Freezes the columns when scrolling horizontally */
+    left: 10rem; /* Freezes the columns when scrolling horizontally */
     min-width: 16rem;
 }
 

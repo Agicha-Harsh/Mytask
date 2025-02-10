@@ -113,8 +113,8 @@ thead th:nth-child(2){
     left: 0; /* Freezes the columns when scrolling horizontally */
     background-color: #f4f4f4;
     z-index: 2; /* Ensures the columns appear above other content */
-    min-width: 9rem;
-    max-width: 9rem;
+    min-width: 10rem;
+    max-width: 10rem;
 }
 
 .table thead th {
@@ -215,8 +215,11 @@ thead th:first-child {
 
 
 @media (min-width: 1920px) and (max-width: 2660px) {
+    .w-35{
+        width: 30% !important;
+    }
     .n-margin-xs-8{
-        margin-left: -14% !important;
+        margin-left: -9% !important;
     }
     .fs-12{
         font-size: 18px !important;
